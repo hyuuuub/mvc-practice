@@ -2,6 +2,7 @@
 
 스프링 MVC 프로젝트로 게시판을 구축한 프로젝트
 
+https://gmlwjd9405.github.io/2018/05/09/mysql-workbench-guide.html
 
 
 ### pom.xml 수정
@@ -21,23 +22,23 @@
 
 <!-- MySQL -->
 <dependency>
-  <groupId>mysql</groupId>
-  <artifactId>mysql-connector-java</artifactId>
-  <version>6.0.5</version>
+	<groupId>mysql</groupId>
+	<artifactId>mysql-connector-java</artifactId>
+	<version>6.0.5</version>
 </dependency>
         
 <!-- MyBatis -->
 <dependency>
-  <groupId>org.mybatis</groupId>
-  <artifactId>mybatis</artifactId>
-  <version>3.4.6</version>
+	<groupId>org.mybatis</groupId>
+	<artifactId>mybatis</artifactId>
+	<version>3.4.6</version>
 </dependency>
 		
 <!-- MyBatis-Spring -->
 <dependency>
-  <groupId>org.mybatis</groupId>
-  <artifactId>mybatis-spring</artifactId>
-  <version>1.3.2</version>
+	<groupId>org.mybatis</groupId>
+	<artifactId>mybatis-spring</artifactId>
+	<version>1.3.2</version>
 </dependency>
         
 <!-- Spring JDBC -->
@@ -64,13 +65,13 @@
 
 - Namespaces 탭에서 아래를 모두 체크해준다.
 
-  ```xml
+```xml
   aop
   beans
   context
   jdbc
   mybatis-spring
-  ```
+```
 
 - Source 탭에서 DataSource와 SqlSessionFactoryBean을 설정한다.
 
